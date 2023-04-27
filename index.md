@@ -4,7 +4,7 @@ This is a modified version of the [Pokedex exercise](https://t3-tools.notion.sit
 
 **Intended candidate: Junior to mid-level frontend engineer**
 
-## Part 1
+## Part 1: Create a `<TodoRow>` component
 
 Provided a Todo JavaScript object structured as such:
 
@@ -19,7 +19,7 @@ const sampleTodo = {
 
 ...create a reusable <TodoRow /> component (or the equivalent in your framework) that takes in sampleTodo as a property and renders a row with the userId, id, title, and completion status.
 
-## Part 2
+## Part 2: Create a `<TodoTable>` component
 
 Provided a Todo JavaScript array structured as such:
 
@@ -40,7 +40,7 @@ const todoArray = [
 
 ...create a <TodoListTable /> component that takes in the array and renders all the todos in that array.
 
-## Part 3
+## Part 3: Create a `<FilterableTodoListTable>`
 
 Provided a <TodoCompletionFilter /> component with the following props:
 
